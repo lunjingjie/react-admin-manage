@@ -2,10 +2,22 @@ const menu = {
   menus: [
     // 菜单相关路由
     {
+      key: '/',
+      title: 'dashboard',
+      icon: 'mobile',
+      component: 'Map'
+    },
+    {
       key: '/menu1',
       title: '首页',
       icon: 'mobile',
       component: 'Map'
+    },
+    {
+      key: '/menu2',
+      title: '数据管理',
+      icon: 'mobile',
+      component: 'DataManage'
     },
     // {
     //   key: '/app/ui',
