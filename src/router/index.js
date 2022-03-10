@@ -22,7 +22,7 @@ export default class CRouter extends Component {
             return ( 
               <Route key={r.key}
                       exact
-                      path={r.key}
+                      path={r.path}
                       element={<Component />}
               ></Route>
             );
