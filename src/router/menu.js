@@ -22,6 +22,13 @@ const menu = {
       icon: 'mobile',
       component: 'DataManage'
     },
+    {
+      key: '4',
+      path: '/login',
+      title: '登录',
+      icon: 'mobile',
+      component: 'Login'
+    },
     // {
     //   key: '/app/ui',
     //   title: 'UI',
